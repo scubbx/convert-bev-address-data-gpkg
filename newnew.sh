@@ -1,6 +1,6 @@
 # Test if the original zip file exists
 if test ! -f "Adresse_Relationale_Tabellen-Stichtagsdaten.zip"; then
-  wget "https://www.bev.gv.at/pls/portal/docs/PAGE/BEV_PORTAL_CONTENT_ALLGEMEIN/0200_PRODUKTE/UNENTGELTLICHE_PRODUKTE_DES_BEV/Adresse-Relationale_Tabellen_Stichtagsdaten.zip"
+  wget -O Adresse_Relationale_Tabellen-Stichtagsdaten.zip "https://www.bev.gv.at/pls/portal/docs/PAGE/BEV_PORTAL_CONTENT_ALLGEMEIN/0200_PRODUKTE/UNENTGELTLICHE_PRODUKTE_DES_BEV/Adresse-Relationale_Tabellen_Stichtagsdaten.zip"
 fi
 
 # removing database if it exists
